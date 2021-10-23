@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const botconfig = require("./botconfig.json");
-const tokenfile  = require("./tokenfile.json")
 const math = require("mathjs");
 const ms = require('ms');
 const { parse } = require("twemoji-parser");
@@ -336,4 +335,4 @@ bot.on('messageReactionAdd', async (reaction, user) => {
 }})
   
 
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
