@@ -59,8 +59,8 @@ bot.on("ready", async() => {
     console.log(`${bot.user.username} elindult!`)
 
     let státuszok = [
-        "Prefix: !",
-        "Készítő: Poshi, PoshiDev",
+        "Prefix: ,",
+        "Készítő: Synoox, Roli",
         ",help",
         ",ban",
     ]
